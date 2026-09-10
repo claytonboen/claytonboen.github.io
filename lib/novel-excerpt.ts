@@ -1,0 +1,17 @@
+export const novelExcerpt = [
+  'Today it was raining. Thunder rolled over Silvan Psychiatric Hospital, and the staff kept glancing toward the glass doors as if the weather itself had filed a complaint. Dr. Preston Morgan hated rain. On ordinary mornings the nurses traded embellished stories over burnt coffee; today the lobby held only the hum of fluorescent lights and the expectation of his arrival.',
+  'Charge nurse Karla stood before the assignment board, trying to understand a schedule that no longer resembled one. The hospital usually ran on dozens of names, rooms, and color-coded responsibilities. Today there was one physician listed and one patient beneath him.',
+  '“Who is Phoenix Wright?” asked a small tepid nurse from behind Karla.',
+  'Karla kept her eyes on the board. “She came in last night and asked for help. During the initial evaluation she described a threat inside the hospital, so Dr. Craig placed her under observation. Then Dr. Preston ordered the other units secured and cleared his schedule.”',
+  '“Has something like that ever happened before?” replied the voice.',
+  'The charge nurse pressed her lips together. “No,” she whispered.',
+  'Across the lobby the hospital doors opened, a torrent of rain pouring through. Two men dressed in dark overcoats and hats hurried through the opening and crossed directly to the charge nurse. As they passed she took up beside them and matched their pace.',
+  '“Is the patient ready for her interview?” asked the taller of the two.',
+  '“Yes, Doctor. She is in interview room three. She agreed to medication for the panic, but after your call we moved her under one-to-one observation. The restraints were your instruction.”',
+  '“Good,” replied the doctor. He stopped outside two doors and turned to face Karla.',
+  'He looked directly into her eyes and placed his hand on her shoulder. She flinched slightly at his touch and found herself afraid as she returned his gaze. “Listen, I want you and the rest of the nurses to take the day off.”',
+  '“But doctor! The patients!” she exclaimed.',
+  '“They will still need nurses tomorrow,” the doctor interrupted. “Give them meals, medication, and normal evening programming. Leave only the minimum safety staff. Everyone else goes home.”',
+  'Karla opened her mouth to protest further but she found no words. She looked at the doctor for a moment longer then glanced over at the guest that had come with him. She had never seen him before. He was frail and old with wispy white hair. She found herself thinking that he had a gentle face until she locked onto his eyes. For the second time in just a few minutes she found herself feeling afraid.',
+  'Everything inside her began screaming, warning her that she shouldn’t be near this man. She took her eyes off him and nodded curtly to the doctor. She turned and started quickly down the hallway.',
+];

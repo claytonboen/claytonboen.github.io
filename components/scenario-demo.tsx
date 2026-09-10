@@ -113,9 +113,7 @@ export function ScenarioDemo() {
         </>
       )}
       <p className="demo-disclosure">
-        New web adaptation, built with AI assistance from my Storyline scenario
-        work. Fictional details; not financial guidance. No responses are
-        collected.
+        Portfolio adaptation · Fictional practice scenario
       </p>
     </div>
   );

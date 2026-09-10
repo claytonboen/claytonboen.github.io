@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
         env:
           SHARP_IGNORE_GLOBAL_LIBVIPS: '1'
-      - run: node --experimental-strip-types --test tests/scenario.test.ts
+      - run: node --experimental-strip-types --test tests/*.test.ts
       - run: npx tsc --noEmit
       - run: npm run build
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4

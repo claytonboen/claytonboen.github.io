@@ -1,21 +1,32 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import {
+  Barlow_Condensed,
+  Manrope,
+  Cormorant_Garamond,
+} from 'next/font/google';
 import './globals.css';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const bodyFont = Manrope({
+  variable: '--font-body',
   subsets: ['latin'],
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const displayFont = Barlow_Condensed({
+  variable: '--font-display',
+  weight: ['500', '600', '700', '800'],
   subsets: ['latin'],
+});
+const bookFont = Cormorant_Garamond({
+  variable: '--font-book',
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  style: ['normal', 'italic'],
 });
 
 export const metadata: Metadata = {
-  title: 'Clayton Boen | Instructional Designer, Writer & Director',
+  title: 'Clayton Boen — Learning. Film. Fiction. Play.',
   description:
-    'Selected learning design and television production work by Clayton Boen. University finance training, scenario-based learning, and Nickelodeon production experience.',
+    'Story-driven work by Clayton Boen: instructional design, Nickelodeon television, the forthcoming Born to Blood novel, and Space Force, an independently developed game.',
 };
 
 export default function RootLayout({
@@ -26,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${bodyFont.variable} ${displayFont.variable} ${bookFont.variable} antialiased`}
       >
         {children}
       </body>
