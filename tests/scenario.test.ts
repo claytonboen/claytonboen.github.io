@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { initialState, scenarioReducer, decisions } from '../lib/scenario.ts';
 
-test('all first-choice success paths complete with three effective first attempts', () => {
+void test('all first-choice success paths complete with three effective first attempts', () => {
   let s = { ...initialState };
   for (const d of decisions) {
     s = scenarioReducer(s, {
@@ -15,7 +15,7 @@ test('all first-choice success paths complete with three effective first attempt
   assert.equal(s.firstTry, 3);
   assert.deepEqual(scenarioReducer(s, { type: 'reset' }), initialState);
 });
-test('ineffective decisions explain, require retry, and cannot inflate first-attempt score', () => {
+void test('ineffective decisions explain, require retry, and cannot inflate first-attempt score', () => {
   let s = { ...initialState };
   for (const d of decisions) {
     s = scenarioReducer(s, {
@@ -35,7 +35,7 @@ test('ineffective decisions explain, require retry, and cannot inflate first-att
   assert.equal(s.completed, true);
   assert.equal(s.firstTry, 0);
 });
-test('premature and invalid transitions are harmless', () => {
+void test('premature and invalid transitions are harmless', () => {
   for (const action of [
     { type: 'next' },
     { type: 'retry' },

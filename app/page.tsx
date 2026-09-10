@@ -23,7 +23,7 @@ export default function Home() {
         Skip to content
       </a>
       <header className="site-header">
-        <a className="wordmark" href="#">
+        <a className="wordmark" href="#main">
           CLAYTON BOEN<span>Learning designer · Writer · Director</span>
         </a>
         <nav aria-label="Main">
@@ -263,14 +263,17 @@ export default function Home() {
                 type="video/mp4"
               />
               Your browser does not support this video.{' '}
-              <a href="/media/clayton-boen-director-reel.mp4">Open the reel</a>.
+              <a href="/media/clayton-boen-director-reel.mp4" download>
+                Download the reel
+              </a>
+              .
             </video>
             <figcaption id="reel-description">
               Archive production reel · 2015 · 2 min 33 sec. A montage of
               television performance, comic timing, ensemble staging, and
               visual-effects sequences. Contributions vary by project; the reel
-              includes episodic directing and digital production. Programme
-              dialogue and music are present; captions are not yet available.
+              includes episodic directing and digital production. Audio captions
+              are not yet available.
             </figcaption>
           </figure>
           <div className="credits">
@@ -319,7 +322,7 @@ export default function Home() {
                 I write for performance: the action a learner needs to take, the
                 beat an actor needs to play, and the story an audience needs to
                 follow. My archive includes original television pilots, feature
-                screenplays, children's television specs, and workplace learning
+                screenplays, children’s television specs, and workplace learning
                 materials.
               </p>
               <a
