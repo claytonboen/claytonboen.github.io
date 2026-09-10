@@ -42,7 +42,7 @@ export function ScenarioDemo() {
           </p>
           <p className="demo-result">
             {state.firstTry} of {decisions.length} effective choices on your
-            first try. Practice is the point—not a perfect score.
+            first try. You can replay the scenario to practice again.
           </p>
           <Button
             className="demo-action"

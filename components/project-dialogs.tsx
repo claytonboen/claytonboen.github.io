@@ -29,7 +29,7 @@ export function NovelPreview() {
             <p key={index}>{paragraph}</p>
           ))}
         </div>
-        <p className="excerpt-end">Continue the story. Coming soon.</p>
+        <p className="excerpt-end">Born to Blood is coming soon.</p>
       </DialogContent>
     </Dialog>
   );
@@ -43,7 +43,7 @@ export function GamePreview() {
         <span className="button-time">00:22</span>
       </DialogTrigger>
       <DialogContent className="game-dialog">
-        <DialogTitle>Space Force — in flight</DialogTitle>
+        <DialogTitle>Space Force gameplay</DialogTitle>
         <DialogDescription>
           Development capture · Coastal flight · 22 seconds, silent
         </DialogDescription>

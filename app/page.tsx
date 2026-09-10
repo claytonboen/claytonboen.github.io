@@ -33,7 +33,7 @@ export default function Home() {
       <main id="main">
         <StoryHero />
         <div className="credit-strip" aria-label="Selected experience">
-          <p>STORIES BUILT FOR</p>
+          <p>WHERE I’VE WORKED</p>
           <span className="credit-university">University of Phoenix</span>
           <span className="credit-nick">Nickelodeon</span>
           <span className="credit-cruise">Cruise</span>
@@ -46,7 +46,7 @@ export default function Home() {
         >
           <div className="section-intro">
             <div>
-              <p className="eyebrow">THE SELECTED WORK / 01—04</p>
+              <p className="eyebrow">SELECTED WORK / 01-04</p>
               <h2 id="selected-title">
                 FOUR MEDIUMS.
                 <br />
@@ -54,11 +54,9 @@ export default function Home() {
               </h2>
             </div>
             <p className="intro-copy">
-              A learner facing a difficult conversation. An actor finding the
-              moment. A reader turning the page. A player choosing one more
-              round.
-              <br />
-              <strong>I build for the person on the other side.</strong>
+              My work includes Nickelodeon television shows, university
+              training, a novel, and an independent game. Each calls for a
+              different approach, but I always start with the story.
             </p>
           </div>
           <div className="work-mosaic">
@@ -70,20 +68,20 @@ export default function Home() {
                 </span>
               </div>
               <p className="learning-poster-type">
-                LESS
+                WHEN A
                 <br />
-                INFORMATION
+                STUDENT
                 <br />
-                OVERLOAD.
+                ASKS:
                 <br />
                 <span>
-                  MORE “I
+                  WHAT
                   <br />
-                  GET IT.”
+                  NOW?
                 </span>
               </p>
               <div className="panel-bottom">
-                <h3>Learning that moves people.</h3>
+                <h3>Training for finance advisors.</h3>
                 <p>Finance New Hire · Scenario design · Storyline</p>
               </div>
             </a>
@@ -104,9 +102,9 @@ export default function Home() {
               <div className="panel-bottom">
                 <span className="panel-brand">Nickelodeon</span>
                 <h3>
-                  From the page
+                  Directing and
                   <br />
-                  to the final frame.
+                  producing for television.
                 </h3>
                 <p>Director · Producer · Writer · Editor</p>
               </div>
@@ -152,7 +150,7 @@ export default function Home() {
                   BUILT IN UNITY · IN DEVELOPMENT
                 </span>
                 <h3>SPACE FORCE</h3>
-                <p>From “what if” to a game you can see in motion.</p>
+                <p>My first independently developed game.</p>
               </div>
             </a>
           </div>
@@ -174,8 +172,9 @@ export default function Home() {
             </h2>
             <div>
               <p className="lead-copy">
-                Complex rules. Real people.
-                <br />A clear way forward.
+                New advisors need more
+                <br />
+                than a policy manual.
               </p>
               <p>
                 At the University of Phoenix, I designed learning for Finance
@@ -184,9 +183,9 @@ export default function Home() {
                 decisions.
               </p>
               <p>
-                My job is to turn that complexity into something an advisor can
-                actually use—in the conversation, under pressure, when getting
-                it right matters.
+                I built practice around the questions advisors hear from
+                students, so they could learn how to find an accurate answer and
+                explain it.
               </p>
               <div className="capability-tags">
                 <span>Instructional design</span>
@@ -200,17 +199,19 @@ export default function Home() {
             <div className="learning-narrative">
               <p className="eyebrow">FEATURED INTERACTIVE / 3 DECISIONS</p>
               <h3>
-                One call.
-                <br />A human response.
+                Helping an
+                <br />
+                upset student.
               </h3>
               <p>
-                “Where is my payment?” can be a question about money—and a
-                conversation about fear, trust, and what happens next.
+                A student calls about a missing payment. The advisor needs to
+                acknowledge the concern, check the account, and explain what can
+                happen next without making promises they can’t keep.
               </p>
               <p>
-                I use branching dialogue to put advisors inside that moment.
-                Choices have consequences. Feedback explains why. The learner
-                gets another chance to get it right.
+                I wrote branching dialogue that lets advisors try different
+                responses and see why they work or fall short. They can retry a
+                decision after reading the feedback.
               </p>
               <p className="try-label">
                 <span aria-hidden="true">↗</span> Take the advisor’s seat.
@@ -227,9 +228,11 @@ export default function Home() {
                 military-affiliated students.
               </h3>
               <p>
-                My course redevelopment and collaborative design work connected
-                benefit terminology, resource navigation, and realistic advising
-                practice. The learning journey continues beyond the course.
+                I redeveloped Storyline course material and worked with other
+                designers on advising practice for military-affiliated students.
+                We organized the work around finding reliable information,
+                applying it in conversation, and practicing again after
+                training.
               </p>
             </div>
             <ol className="learning-sequence">
@@ -256,10 +259,10 @@ export default function Home() {
               <li>
                 <span>03</span>
                 <div>
-                  <h4>Make it stick.</h4>
+                  <h4>Practice again.</h4>
                   <p>
-                    Designed 30- and 60-day reinforcement returns to the
-                    decisions that need practice.
+                    Follow-up activities at 30 and 60 days revisit the more
+                    difficult advising decisions.
                   </p>
                 </div>
               </li>
@@ -309,9 +312,9 @@ export default function Home() {
             <div>
               <span className="nick-word">Nickelodeon</span>
               <p>
-                Big ideas only matter if you can bring them to life. I’ve done
-                it from the script through the shoot, the edit, the sound, and
-                the final delivery.
+                My Nickelodeon work includes directing and producing episodes of
+                Every Witch Way and Talia in the Kitchen, along with digital
+                production for iCarly and Victorious.
               </p>
               <a className="text-link" href="#production-reel">
                 Watch the reel <span aria-hidden="true">↘</span>
@@ -363,19 +366,18 @@ export default function Home() {
             </div>
             <div className="production-copy">
               <h3>
-                Creative vision.
+                I know what it takes
                 <br />
-                Production backbone.
+                to get a show made.
               </h3>
               <p>
-                Actors, crew, vendors, equipment, locations, schedules, and
-                budgets. I negotiate the deal, solve the production problem, and
-                keep the story intact.
+                I’ve hired actors and crew, negotiated vendor deals, rented
+                equipment, and managed schedules and budgets. A director has to
+                make creative decisions while keeping the production moving.
               </p>
               <p>
-                Expert editing, motion graphics, visual effects, sound editing,
-                and composition—with Premiere Pro and After Effects at the heart
-                of the toolkit.
+                I’m an expert in Premiere Pro and After Effects, with extensive
+                experience in editing, visual effects, sound, and composition.
               </p>
             </div>
           </div>
@@ -439,7 +441,7 @@ export default function Home() {
             </p>
             <p>
               After ten years in foster care, Phoenix Wright finally has a
-              family waiting for her. Then a demon comes to kill her—and she
+              family waiting for her. Then a demon comes to kill her. She
               discovers she is the final Knight in a hidden war between Heaven
               and the darkness beneath the modern world.
             </p>
@@ -450,11 +452,11 @@ export default function Home() {
             </p>
             <NovelPreview />
             <div className="author-note">
-              <span>THE SAME STORY INSTINCT, ON THE PAGE.</span>
+              <span>WRITING THE NOVEL</span>
               <p>
-                Character. Tension. Pacing. The carefully chosen detail that
-                makes you lean closer. Long-form fiction gives those instincts a
-                world of their own.
+                Writing a novel lets me spend more time with a character than an
+                episode allows. Phoenix’s story follows what happens when
+                someone who has learned not to trust finally has people to lose.
               </p>
             </div>
           </div>
@@ -470,9 +472,7 @@ export default function Home() {
           </div>
           <div className="game-intro">
             <div>
-              <p className="eyebrow">
-                CREATED FROM SCRATCH. LEARNED ALONG THE WAY.
-              </p>
+              <p className="eyebrow">AN INDEPENDENT UNITY PROJECT</p>
               <h2 id="game-title">
                 SPACE
                 <br />
@@ -500,14 +500,14 @@ export default function Home() {
                 So I learned how.
               </h3>
               <p>
-                I taught myself agentic coding to build Space Force in
-                Unity—taking an idea through gameplay, progression, interface
-                design, and repeated iteration.
+                I taught myself agentic coding to build Space Force in Unity.
+                I’ve worked through the gameplay, progression systems, and
+                interface, testing and revising the game as I go.
               </p>
               <p>
-                It brings the same instincts I use in learning and production
-                into an interactive world: clear feedback, meaningful choices, a
-                strong visual identity, and a reason to keep going.
+                That includes decisions about how a fighter handles, what an
+                upgrade changes, and what the player needs to see on screen. The
+                footage here shows the game in development.
               </p>
               <div className="capability-tags">
                 <span>Creative direction</span>
@@ -562,31 +562,31 @@ export default function Home() {
           <div className="about-copy">
             <p className="eyebrow">THE PERSON BEHIND THE WORK</p>
             <h2 id="about-title">
-              A STORYTELLER.
-              <br />A MAKER.
+              I’M CLAYTON.
+              <br />I LIKE MAKING
               <br />
               <span>
-                A GET-IT-DONE
+                COMPLICATED
                 <br />
-                PERSON.
+                THINGS WORK.
               </span>
             </h2>
             <p>
-              I’m Clayton. I’ve led television crews, designed university
-              learning, written a novel, and taught myself to build a game. The
-              through-line isn’t a job title. It’s turning an idea into an
-              experience that means something to somebody.
+              I spent years directing and producing television before moving
+              into instructional design. Working with actors, writers, editors,
+              and large crews taught me how to explain an idea and get people
+              working toward it.
             </p>
             <p>
-              I can develop the concept, write the script, design the learning,
-              direct the talent, negotiate the resources, and get the edit
-              across the finish line.
+              I still enjoy the hands-on work. I can write the script, build the
+              course, direct the shoot, or handle the edit. I’m comfortable
+              leading a team and just as comfortable doing the work myself.
             </p>
             <a
               className="text-link"
               href="https://www.linkedin.com/in/clayton-d-boen"
             >
-              The full professional story <span aria-hidden="true">↗</span>
+              View my experience on LinkedIn <span aria-hidden="true">↗</span>
             </a>
           </div>
         </section>
@@ -596,14 +596,14 @@ export default function Home() {
           aria-labelledby="contact-title"
         >
           <div className="contact-top">
-            <p className="eyebrow">YOUR NEXT PROJECT / OUR NEXT CHAPTER</p>
+            <p className="eyebrow">GET IN TOUCH</p>
             <span>OPEN TO OPPORTUNITIES</span>
           </div>
           <h2 id="contact-title">
-            LET’S MAKE
+            HAVE A PROJECT
             <br />
             <a href="mailto:claytonboen@gmail.com">
-              IT MATTER.<span aria-hidden="true">↗</span>
+              IN MIND?<span aria-hidden="true">↗</span>
             </a>
           </h2>
           <div className="contact-bottom">

@@ -1,4 +1,4 @@
-# Clayton Boen — Learning. Film. Fiction. Play.
+# Clayton Boen | Learning, Film, Fiction and Games
 
 A story-driven portfolio spanning instructional design, Nickelodeon television production, the forthcoming novel **Born to Blood**, and the independent Unity game **Space Force**.
 

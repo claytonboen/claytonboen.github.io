@@ -74,3 +74,10 @@ test('the novel offers a substantial excerpt, not the full manuscript', () => {
   assert.ok(words > 400 && words < 800);
   assert.ok(novelExcerpt[0].startsWith('Today it was raining.'));
 });
+
+test('portfolio copy follows the requested punctuation style', () => {
+  assert.doesNotMatch(
+    publicSources + read('lib/scenario.ts'),
+    /[\u2013\u2014]/,
+  );
+});

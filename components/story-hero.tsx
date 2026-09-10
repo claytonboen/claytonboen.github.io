@@ -57,9 +57,9 @@ export function StoryHero() {
         </h1>
         <div className="hero-details">
           <p>
-            I design learning, direct television, write fiction, and build
-            games. Different mediums. The same question: what makes someone
-            care?
+            I’m an instructional designer and former Nickelodeon producer and
+            director. I bring that storytelling experience to training, fiction,
+            and the games I build.
           </p>
           <a className="round-link" href="#selected-work">
             <span>

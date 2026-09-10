@@ -24,7 +24,7 @@ const bookFont = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: 'Clayton Boen — Learning. Film. Fiction. Play.',
+  title: 'Clayton Boen | Learning, Film, Fiction and Games',
   description:
     'Story-driven work by Clayton Boen: instructional design, Nickelodeon television, the forthcoming Born to Blood novel, and Space Force, an independently developed game.',
 };
