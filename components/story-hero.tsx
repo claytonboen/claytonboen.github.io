@@ -42,7 +42,7 @@ export function StoryHero() {
           preload="metadata"
           poster="/media/director-reel-poster.jpg"
         >
-          <source src="/media/story-in-motion.mp4" type="video/mp4" />
+          <source src="/media/clayton-boen-director-reel.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="hero-shade" />
@@ -61,11 +61,11 @@ export function StoryHero() {
             director. I bring that storytelling experience to training, fiction,
             and the games I build.
           </p>
-          <a className="round-link" href="#selected-work">
+            <a className="round-link" href="#production-reel">
             <span>
-              Explore
+              Watch
               <br />
-              the work
+              the reel
             </span>
             <span aria-hidden="true">↘</span>
           </a>

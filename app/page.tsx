@@ -1,6 +1,6 @@
-import { ScenarioDemo } from '@/components/scenario-demo';
 import { StoryHero } from '@/components/story-hero';
 import { NovelPreview, GamePreview } from '@/components/project-dialogs';
+import { LearningShowcase } from '@/components/learning-showcase';
 
 export default function Home() {
   return (
@@ -48,9 +48,9 @@ export default function Home() {
             <div>
               <p className="eyebrow">SELECTED WORK / 01-04</p>
               <h2 id="selected-title">
-                FOUR MEDIUMS.
+                SELECTED
                 <br />
-                <span className="muted-heading">ONE STORY LENS.</span>
+                <span className="muted-heading">WORK.</span>
               </h2>
             </div>
             <p className="intro-copy">
@@ -60,7 +60,7 @@ export default function Home() {
             </p>
           </div>
           <div className="work-mosaic">
-            <a href="#learning" className="work-panel work-learning">
+            <a href="#chaos-to-calm" className="work-panel work-learning">
               <div className="panel-top">
                 <span>01 / LEARNING DESIGN</span>
                 <span className="panel-arrow" aria-hidden="true">
@@ -68,21 +68,17 @@ export default function Home() {
                 </span>
               </div>
               <p className="learning-poster-type">
-                WHEN A
-                <br />
-                STUDENT
-                <br />
-                ASKS:
+                CHAOS
                 <br />
                 <span>
-                  WHAT
+                  TO
                   <br />
-                  NOW?
+                  CALM.
                 </span>
               </p>
               <div className="panel-bottom">
-                <h3>Training for finance advisors.</h3>
-                <p>Finance New Hire · Scenario design · Storyline</p>
+                <h3>Chaos to Calm</h3>
+                <p>Advisor Stories · 15-second audio samples</p>
               </div>
             </a>
             <a href="#television" className="work-panel work-film">
@@ -156,158 +152,19 @@ export default function Home() {
           </div>
         </section>
         <section
-          className="learning-section section-pad"
-          id="learning"
-          aria-labelledby="learning-title"
-        >
-          <div className="section-number">
-            <span>01 / THE LEARNER</span>
-            <span>INSTRUCTIONAL DESIGN</span>
-          </div>
-          <div className="learning-lead">
-            <h2 id="learning-title">
-              MAKE IT
-              <br />
-              <span>MAKE SENSE.</span>
-            </h2>
-            <div>
-              <p className="lead-copy">
-                New advisors need more
-                <br />
-                than a policy manual.
-              </p>
-              <p>
-                At the University of Phoenix, I designed learning for Finance
-                New Hire: financial aid, tuition, military education benefits,
-                and the federal and state requirements behind student-facing
-                decisions.
-              </p>
-              <p>
-                I built practice around the questions advisors hear from
-                students, so they could learn how to find an accurate answer and
-                explain it.
-              </p>
-              <div className="capability-tags">
-                <span>Instructional design</span>
-                <span>Regulated content</span>
-                <span>Articulate Storyline</span>
-                <span>Scenario writing</span>
-              </div>
-            </div>
-          </div>
-          <div className="learning-workbench" id="scenario">
-            <div className="learning-narrative">
-              <p className="eyebrow">FEATURED INTERACTIVE / 3 DECISIONS</p>
-              <h3>
-                Helping an
-                <br />
-                upset student.
-              </h3>
-              <p>
-                A student calls about a missing payment. The advisor needs to
-                acknowledge the concern, check the account, and explain what can
-                happen next without making promises they can’t keep.
-              </p>
-              <p>
-                I wrote branching dialogue that lets advisors try different
-                responses and see why they work or fall short. They can retry a
-                decision after reading the feedback.
-              </p>
-              <p className="try-label">
-                <span aria-hidden="true">↗</span> Take the advisor’s seat.
-              </p>
-            </div>
-            <ScenarioDemo />
-          </div>
-          <div className="military-case" id="military">
-            <div>
-              <p className="eyebrow">BEYOND A SINGLE SCENARIO</p>
-              <h3>
-                Better support for
-                <br />
-                military-affiliated students.
-              </h3>
-              <p>
-                I redeveloped Storyline course material and worked with other
-                designers on advising practice for military-affiliated students.
-                We organized the work around finding reliable information,
-                applying it in conversation, and practicing again after
-                training.
-              </p>
-            </div>
-            <ol className="learning-sequence">
-              <li>
-                <span>01</span>
-                <div>
-                  <h4>Find the answer.</h4>
-                  <p>
-                    Pre-work builds confidence locating the right source and
-                    explaining it in plain language.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <span>02</span>
-                <div>
-                  <h4>Use it in context.</h4>
-                  <p>
-                    Facilitated scenarios connect the resource to a student’s
-                    actual question.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <span>03</span>
-                <div>
-                  <h4>Practice again.</h4>
-                  <p>
-                    Follow-up activities at 30 and 60 days revisit the more
-                    difficult advising decisions.
-                  </p>
-                </div>
-              </li>
-            </ol>
-          </div>
-          <details className="project-credits">
-            <summary>
-              Project details & credits <span aria-hidden="true">+</span>
-            </summary>
-            <div>
-              <p>
-                <strong>My role:</strong> Storyline course redevelopment,
-                scenario adaptation, dialogue, and collaborative instructional
-                design. Tools include Articulate Storyline, Word, and Microsoft
-                Forms.
-              </p>
-              <p>
-                <strong>Military learning design collaborators:</strong> Amber
-                Holt Geary, Clayton Boen, Devin Nordmeyer, and Ivan Nicholson.
-              </p>
-              <p>
-                <strong>Interactive sample:</strong> Condensed portfolio
-                adaptation of my finance-advisor scenario work. Original
-                Storyline template by Bianca Woods. Fictional practice content,
-                not financial advice.
-              </p>
-            </div>
-          </details>
-        </section>
-        <section
           className="television-section section-pad"
           id="television"
           aria-labelledby="television-title"
         >
           <div className="section-number">
-            <span>02 / THE AUDIENCE</span>
+            <span>01 / DIRECTOR’S REEL</span>
             <span>TELEVISION & PRODUCTION</span>
           </div>
           <div className="film-heading">
             <h2 id="television-title">
-              THE STORY.
+              DIRECTOR’S
               <br />
-              THE CREW.
-              <br />
-              <span>THE CUT.</span>
+              <span>REEL.</span>
             </h2>
             <div>
               <span className="nick-word">Nickelodeon</span>
@@ -327,7 +184,7 @@ export default function Home() {
               playsInline
               preload="none"
               poster="/media/director-reel-poster.jpg"
-              aria-label="Clayton Boen’s television production reel"
+              aria-label="Clayton Boen’s director’s reel"
             >
               <source
                 src="/media/clayton-boen-director-reel.mp4"
@@ -335,12 +192,12 @@ export default function Home() {
               />
               Your browser does not support video.{' '}
               <a href="/media/clayton-boen-director-reel.mp4">
-                Open the production reel.
+                Open the director’s reel.
               </a>
             </video>
             <figcaption>
-              <span>CLAYTON BOEN / PRODUCTION REEL</span>
-              <span>02:33 · ARCHIVE SELECTS</span>
+              <span>CLAYTON BOEN / DIRECTOR’S REEL</span>
+              <span>02:33 · TELEVISION</span>
             </figcaption>
           </figure>
           <div className="production-proof">
@@ -404,6 +261,7 @@ export default function Home() {
             respective rights holders.
           </p>
         </section>
+        <LearningShowcase />
         <section
           className="book-section"
           id="writing"

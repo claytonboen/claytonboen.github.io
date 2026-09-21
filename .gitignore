@@ -37,3 +37,6 @@ next-env.d.ts
 /outputs/
 /work/
 *.tsbuildinfo
+
+# Employer media staged for local portfolio review only.
+/public/media/review/
