@@ -78,7 +78,7 @@ export function LearningShowcase() {
           <p>Cruise's CEO told me employees did not fully understand the product or how the company’s teams fit together.</p>
           <p>I pitched a film that follows one car from boot-up to its return at the end of the day. Pre-interviews with employees shaped the story and helped me explain the roles involved. The film received hundreds of direct compliments inside the company.</p>
           <p className="project-role">Concept · Needs assessment · Producer</p>
-          <p className="sample-credit">A short excerpt from the rider-support sequence, with the original on-screen captions.</p>
+          <p className="sample-credit">An excerpt from the first-ride sequence, showing the passengers’ reactions as Poppy stops for pedestrians. Original on-screen captions are included.</p>
         </div>
       </article>
     </section>

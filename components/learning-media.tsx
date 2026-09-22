@@ -20,9 +20,9 @@ export function EpisodeAudio({ src, title }: { src: string; title: string }) {
 
 export function PoppyExcerpt() {
   return <video controls playsInline preload="none" onPlay={focusPlayback}
-    poster="/media/samples/poppy-15s-poster.jpg"
-    aria-label="A Day in the Life of Poppy: 15-second rider support sample">
-    <source src="/media/samples/poppy-15s.mp4" type="video/mp4" />
-    Your browser cannot play this film. <a href="/media/samples/poppy-15s.mp4">Open the excerpt</a>.
+    poster="/media/samples/poppy-rider-experience-poster.jpg"
+    aria-label="A Day in the Life of Poppy: 15-second first-ride sample">
+    <source src="/media/samples/poppy-rider-experience-15s.mp4" type="video/mp4" />
+    Your browser cannot play this film. <a href="/media/samples/poppy-rider-experience-15s.mp4">Open the excerpt</a>.
   </video>;
 }

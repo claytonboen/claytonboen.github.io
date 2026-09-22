@@ -106,8 +106,8 @@ test('the public directory excludes full employer media and course sources', () 
     'chaos-to-calm-02-15s.mp3',
     'chaos-to-calm-04-15s.mp3',
     'finance-new-hire-cover.png',
-    'poppy-15s-poster.jpg',
-    'poppy-15s.mp4',
+    'poppy-rider-experience-15s.mp4',
+    'poppy-rider-experience-poster.jpg',
   ]);
   for (const path of ['public/media/review', 'public/media/story-in-motion.mp4', 'public/media/military-course-title.jpg'])
     assert.equal(existsSync(new URL(path, root)), false, `${path} must stay outside the public build`);
