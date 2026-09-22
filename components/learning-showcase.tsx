@@ -16,7 +16,8 @@ export function LearningShowcase() {
           </div>
           <div className="podcast-intro">
             <p className="podcast-series">Advisor Stories</p>
-            <p>I produced these podcasts for Finance New Hire training. Advisors hear how a difficult call sounds and discuss ways to respond.</p>
+            <p>Actual student conversations inspired Advisor Stories. I produced these AI-generated podcasts for Finance New Hire training, turning situations advisors encounter into stories learners could listen to and discuss.</p>
+            <p>Storytelling gave the training a human context. Instead of only explaining how to handle a difficult call, the episodes let learners hear the situation unfold and consider how they would respond. The audio is AI-generated, not a recording of an actual student conversation.</p>
             <p>Each recording below is a 15-second sample.</p>
             <p className="project-role">Producer · Instructional designer</p>
           </div>
